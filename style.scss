@@ -94,7 +94,7 @@ body{
 }
 
 .money{
-    width: 100%;
+    width: 80%;
     height: 100%;
     display: flex;
     align-items: center;
@@ -201,6 +201,7 @@ body{
     justify-content: center;
     border: 2px solid green;
     color: white;
+    text-align: center;
     font-size: 12px;
     text-shadow: 1px 1px 2px black;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -256,7 +257,7 @@ body{
     display: flex;
     flex-flow: column;
     @include phone-850(){
-        height: 700px;
+        height: 400px;
     }
 }
 
@@ -278,8 +279,8 @@ body{
     justify-content: center;
     align-items: center;
     @include phone-850(){
-        width: 90%;
-        height: 50%;
+        width: 80%;
+        height: 33.3%;
     }
 }
 

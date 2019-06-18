@@ -143,7 +143,7 @@ body {
 }
 
 .money {
-  width: 100%;
+  width: 80%;
   height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -308,6 +308,7 @@ body {
           justify-content: center;
   border: 2px solid green;
   color: white;
+  text-align: center;
   font-size: 12px;
   text-shadow: 1px 1px 2px black;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -396,7 +397,7 @@ body {
 
 @media only screen and (max-width: 850px) {
   .upgrade-container {
-    height: 700px;
+    height: 400px;
   }
 }
 
@@ -439,8 +440,8 @@ body {
 
 @media only screen and (max-width: 850px) {
   .upgrade {
-    width: 90%;
-    height: 50%;
+    width: 80%;
+    height: 33.3%;
   }
 }
 
