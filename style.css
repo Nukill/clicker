@@ -397,7 +397,7 @@ body {
 
 @media only screen and (max-width: 850px) {
   .upgrade-container {
-    height: 400px;
+    height: 250px;
   }
 }
 
@@ -470,7 +470,7 @@ body {
 
 @media only screen and (max-width: 850px) {
   .upgrade-button-exp, .upgrade-button-click, .upgrade-button-money {
-    font-size: 8px;
+    font-size: 14px;
     width: 80%;
     height: 90%;
   }
