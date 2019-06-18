@@ -53,6 +53,7 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-flow: column;
             flex-flow: column;
+    height: 10%;
   }
 }
 
@@ -137,7 +138,7 @@ body {
 @media only screen and (max-width: 850px) {
   .money-container {
     width: 100%;
-    height: 35%;
+    height: 40%;
   }
 }
 
@@ -173,7 +174,7 @@ body {
 @media only screen and (max-width: 850px) {
   .level-container {
     width: 100%;
-    height: 35%;
+    height: 30%;
   }
 }
 
@@ -214,6 +215,12 @@ body {
   margin-right: 3px;
 }
 
+@media only screen and (max-width: 850px) {
+  .money-type {
+    font-size: 20px;
+  }
+}
+
 .normal-font {
   font-size: 16px;
 }
@@ -231,11 +238,23 @@ body {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+@media only screen and (max-width: 850px) {
+  .money-count {
+    font-size: 16px;
+  }
+}
+
 .level-name {
   color: white;
   font-size: 17px;
   text-shadow: 1px 1px 2px black;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+@media only screen and (max-width: 850px) {
+  .level-name {
+    font-size: 16px;
+  }
 }
 
 .level-count {
@@ -322,7 +341,7 @@ body {
 @media only screen and (max-width: 850px) {
   .clicks {
     width: 100%;
-    height: 20%;
+    height: 15%;
   }
 }
 
