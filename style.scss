@@ -258,6 +258,7 @@ body{
     flex-flow: column;
     @include phone-850(){
         height: 250px;
+        margin-top: 25px;
     }
 }
 
