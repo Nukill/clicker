@@ -399,8 +399,8 @@ body {
 
 .source {
   margin-top: 10px;
-  width: 20%;
-  height: 90%;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
   border: 3px solid black;
   -webkit-transition: 50ms;
@@ -409,8 +409,15 @@ body {
 
 @media only screen and (max-width: 1150px) {
   .source {
-    width: 50%;
-    height: 50%;
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .source {
+    width: 75px;
+    height: 75px;
   }
 }
 

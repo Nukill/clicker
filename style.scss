@@ -262,14 +262,18 @@ body{
 
 .source{
     margin-top: 10px;
-    width: 20%;
-    height: 90%;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     border: 3px solid black;
     transition: 50ms;
     @include tab-1150(){
-        width: 50%;
-        height: 50%;
+        width: 100px;
+        height: 100px;
+    }
+    @include phone-700(){
+        width: 75px;
+        height: 75px;
     }
 }
 
