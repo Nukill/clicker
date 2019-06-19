@@ -4,7 +4,7 @@ body {
   overflow-y: hidden;
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 1150px) {
   body {
     overflow-y: auto;
   }
@@ -40,7 +40,7 @@ body {
           align-items: center;
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 1150px) {
   .stats {
     height: 400px;
     -webkit-box-pack: center;
@@ -71,7 +71,7 @@ body {
           justify-content: flex-start;
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 1150px) {
   .experience-container {
     width: 100%;
     height: 30%;
@@ -105,7 +105,7 @@ body {
           transform: translateZ(-1px);
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 1150px) {
   .experience-box {
     height: 100%;
     margin-top: 0;
@@ -135,7 +135,7 @@ body {
           justify-content: center;
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 1150px) {
   .money-container {
     width: 100%;
     height: 40%;
@@ -171,7 +171,7 @@ body {
           justify-content: flex-end;
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 1150px) {
   .level-container {
     width: 100%;
     height: 30%;
@@ -200,7 +200,7 @@ body {
           justify-content: flex-end;
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 1150px) {
   .level-name, .level-count {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -215,7 +215,13 @@ body {
   margin-right: 3px;
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 1150px) {
+  .money-type {
+    font-size: 32px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
   .money-type {
     font-size: 20px;
   }
@@ -225,7 +231,13 @@ body {
   font-size: 16px;
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 1150px) {
+  .normal-font {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
   .normal-font {
     font-size: 8px;
   }
@@ -238,7 +250,13 @@ body {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 1150px) {
+  .money-count {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
   .money-count {
     font-size: 16px;
   }
@@ -251,7 +269,13 @@ body {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 1150px) {
+  .level-name {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
   .level-name {
     font-size: 16px;
   }
@@ -264,7 +288,13 @@ body {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 1150px) {
+  .level-count {
+    font-size: 50px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
   .level-count {
     font-size: 26px;
   }
@@ -288,7 +318,7 @@ body {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 1150px) {
   .experience-name {
     display: none;
   }
@@ -314,9 +344,16 @@ body {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 1150px) {
   .experience-count {
     height: 100%;
+    font-size: 28px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .experience-count {
+    font-size: 13px;
   }
 }
 
@@ -338,7 +375,7 @@ body {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 1150px) {
   .clicks {
     width: 100%;
     height: 5vh;
@@ -359,9 +396,10 @@ body {
           justify-content: center;
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 1150px) {
   .source-container {
     height: 30vh;
+    width: 50%;
   }
 }
 
@@ -375,10 +413,10 @@ body {
   transition: 50ms;
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 1150px) {
   .source {
     width: 50%;
-    height: 75%;
+    height: 50%;
   }
 }
 
@@ -394,7 +432,7 @@ body {
           flex-flow: column;
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 1150px) {
   .upgrade-container {
     height: 50vh;
   }
@@ -408,7 +446,7 @@ body {
   display: flex;
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 1150px) {
   .upgrade-section-top {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -437,7 +475,7 @@ body {
           align-items: center;
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 1150px) {
   .upgrade {
     width: 80%;
     height: 33.3%;
@@ -467,7 +505,15 @@ body {
           box-shadow: 0px 0px 5px 2px #a00;
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 1150px) {
+  .upgrade-button-exp, .upgrade-button-click, .upgrade-button-money {
+    font-size: 28px;
+    width: 80%;
+    height: 90%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
   .upgrade-button-exp, .upgrade-button-click, .upgrade-button-money {
     font-size: 14px;
     width: 80%;
