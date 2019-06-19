@@ -112,7 +112,7 @@ else{
 
 $(document).ready(function(){
     $('.source').click(function(){
-        if (Number(getCookie('money')) >= 10000000000000000){
+        if (Number(getCookie('money')) >= 1000000000){
             $('.money').html('Zdobyłeś maksymalną ilość pieniędzy!');
             return false;
         }
